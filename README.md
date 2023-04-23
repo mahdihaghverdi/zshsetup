@@ -2,12 +2,12 @@
 
 ## Install Zsh
 ```
-$ sudo apt install zsh
+sudo apt install zsh
 ```
 
 ## Install Oh My Zsh
 ```
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 ## Install Recommended fonts
@@ -20,12 +20,12 @@ Note: the fonts are in the repo under /fonts directory
 
 ### Restart zsh
 ```
-$ exec zsh
+exec zsh
 ```
 
 ### Configure the theme
 ```
-$ p10k configure
+p10k configure
 ```
 
 Note: if didn't work: `$ echo 'source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc`
@@ -34,7 +34,7 @@ Note: if didn't work: `$ echo 'source ~/.oh-my-zsh/custom/themes/powerlevel10k/p
 1. [Zsh Auto-Suggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
     1. clone
     ```
-    1. $ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
     ```
 
     2. add it:
@@ -48,7 +48,7 @@ Note: if didn't work: `$ echo 'source ~/.oh-my-zsh/custom/themes/powerlevel10k/p
 2. [Zsh-Syntax-Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
     1. clone:
     ```
-    $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
     ```
    
     2. Add it:
